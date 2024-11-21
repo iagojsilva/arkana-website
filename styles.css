@@ -148,6 +148,8 @@ main {
 	border: 1px solid black;
 	padding: 10px 10px;
 	font-weight: regular;
+	text-decoration: none;
+	color: black;
 }
 
 .request-quote a::before {
