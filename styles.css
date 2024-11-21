@@ -137,10 +137,30 @@ main {
 	text-align: center;
 }
 
+.request-quote a:hover {
+	background-color: black;
+	color: white;
+}
+
 .request-quote a {
 	display: inline-flex;
 	background-color: transparent;
 	border: 1px solid black;
-	padding: 10px 20px;
+	padding: 10px 10px;
+	font-weight: regular;
 }
 
+.request-quote a::before {
+	width: 15px;
+	height: 0.1px;
+	background-color: black;
+	content: "";
+	margin: 10px 5px 10px 0px; 
+}
+.request-quote a::after {
+	width: 15px;
+	height: 0.1px;
+	background-color: black;
+	content: "";
+	margin: 10px 0 10px 5px; 
+}
