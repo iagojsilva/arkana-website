@@ -79,6 +79,8 @@ main {
 	width: 100%;
 }
 
+/* Hero Section */
+
 .hero {
 	background: linear-gradient(90deg, #AD8265, #98755A, #746349);
 	display: flex;
@@ -116,5 +118,29 @@ main {
 .hero img {
 	flex-grow: 0;
 	height: 100%;
+}
+
+
+.request-quote {
+	background-color: rgb(244, 216, 192);
+	font-family: Quicksand;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0;
+	gap: 20px 0;
+}
+
+.request-quote p {
+  font-size: 1.5rem;
+	text-align: center;
+}
+
+.request-quote a {
+	display: inline-flex;
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 10px 20px;
 }
 
