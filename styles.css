@@ -90,7 +90,7 @@ main {
 	height: 210px;
 }
 
-.hero .content {
+.content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -98,16 +98,16 @@ main {
 	align-items: center;
 }
 
-.hero .content .logo {
+.content .logo {
 	width: 50px;	
 	height: 50px;	
 }
 
-.hero p {
+.content p {
 	color: #E9CFAC;
 }
 
-.hero .company-name  {
+.content .company-name  {
 	font-size: 2rem;
 }
 
@@ -137,32 +137,92 @@ main {
 	text-align: center;
 }
 
-.request-quote a:hover {
+.text-black:hover {
 	background-color: black;
 	color: white;
 }
 
-.request-quote a {
-	display: inline-flex;
-	background-color: transparent;
+.text-black {
 	border: 1px solid black;
-	padding: 10px 10px;
-	font-weight: regular;
-	text-decoration: none;
 	color: black;
 }
 
-.request-quote a::before {
-	width: 15px;
-	height: 0.1px;
+.text-black::before {
 	background-color: black;
-	content: "";
-	margin: 10px 5px 10px 0px; 
 }
-.request-quote a::after {
+
+.text-black::after {
+	background-color: black;
+}
+
+.btn-primary {
+	display: inline-flex;
+	background-color: transparent;
+	padding: 10px 10px;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: .9rem;
+}
+
+.btn-primary::before {
 	width: 15px;
 	height: 0.1px;
-	background-color: black;
 	content: "";
-	margin: 10px 0 10px 5px; 
+	margin: auto;
+	margin-right: 5px;
+}
+.btn-primary::after {
+	width: 15px;
+	height: 0.1px;
+	content: "";
+	margin: auto;
+	margin-left: 5px;
+}
+
+.about-us {
+	font-family: Quicksand;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 24px;
+	gap: 20px;
+	background-color: rgb(51, 51, 51);
+}
+
+.about-us__title {
+	text-transform: uppercase;
+	color: rgb(169, 169, 169);
+	font-size: 1.4rem;
+}
+
+.about-us__subtitle {
+	font-size: 1.2rem;
+	text-align: center;
+	font-weight: 800;
+	color: white;
+}
+
+.about-us__description {
+	color: rgb(164, 164, 164);
+	text-align: center;
+}
+
+.text-white:hover {
+	background-color: white;
+	color: black;
+}
+
+.text-white {
+	border: 1px solid white;
+	color: white;
+}
+
+.text-white::before {
+	background-color: white;
+}
+
+.text-white::after {
+	background-color: white;
 }
