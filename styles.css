@@ -158,11 +158,12 @@ main {
 .btn-primary {
 	display: inline-flex;
 	background-color: transparent;
-	padding: 10px 10px;
-	font-weight: 500;
+	padding: 16px 24px;
+	font-weight: 700;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: .9rem;
+	font-size: .85rem;
+	letter-spacing: 2px;
 }
 
 .btn-primary::before {
