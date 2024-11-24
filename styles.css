@@ -199,20 +199,53 @@ main {
 /* About us section */
 
 .about-us {
-	font-family: Quicksand;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 40px 24px;
+	padding: 40px;
+	background-color: rgb(51, 51, 51);
+	font-family: Quicksand;
+}
+
+
+.about-us .wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	gap: 20px;
 	background-color: rgb(51, 51, 51);
+}
+@media (min-width: 600px) {
+	.about-us .wrapper {
+		flex-direction: row;
+	}
+
+	.about-us .about-us-text {
+		width: clamp(50%, 5vw, 500px);
+	}
+
+}
+
+.about-us .wrapper .content {
+	font-family: Italiana;
+	margin-bottom: 40px
+}
+
+.about-us .about-us-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
 }
 
 .about-us__title {
 	text-transform: uppercase;
 	color: rgb(169, 169, 169);
-	font-size: 1.4rem;
+	font-size: 22px;
+	margin-bottom: 40px;
 }
 
 .about-us__subtitle {
