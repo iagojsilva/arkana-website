@@ -246,7 +246,7 @@ main {
 	font-family: Quicksand;
 }
 
-.services .title {
+.title {
 	margin-bottom: 40px;
 	font-size: 1.5rem;
 	letter-spacing: 1.3px;
@@ -298,3 +298,49 @@ main {
 	margin-bottom: 50px;
 }
 
+.contact {
+	font-family: Quicksand;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 0;
+	gap: 20px;
+}
+
+.contact p {
+	width: 80%;
+	text-align: center;
+}
+
+.contact .send-us-a-message {
+	width: 80%;
+	color: rgb(27, 27, 27);
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.contact .please {
+  color: rgb(94, 94, 94);
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.send-message-btn {
+  text-decoration: none;
+	font-weight: 700;
+	padding: 16px 16px;
+	color: white;
+	background-color: rgb(79, 102, 114);
+}
+
+.send-message-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0 5px;
+}
+
+.send-message-btn img {
+	width: 20px;
+}
