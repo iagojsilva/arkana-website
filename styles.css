@@ -344,3 +344,46 @@ main {
 .send-message-btn img {
 	width: 20px;
 }
+
+.location {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: Quicksand;
+}
+
+.location .name, .availability .name {
+	font-size: 28px;
+	color: black;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.location .city {
+	font-size: 15px;
+	color: rgb(94, 94, 94);
+}
+
+.availability {
+	font-family: Quicksand;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 30px;
+}
+
+.availability .time {
+	display: flex;
+	flex-direction: column;
+	gap: 10px 0;
+	text-align: end;
+	color: rgb(94, 94, 94);
+	margin-bottom: 50px;
+}
+
+.active {
+	font-weight: 700;
+}
